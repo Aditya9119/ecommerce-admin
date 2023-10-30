@@ -54,3 +54,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 Button.displayName = "Button"
 
 export { Button, buttonVariants }
+
+
+// allows us to add a state to function component---> use state
+// return array with 2 values current state and function to update.
